@@ -54,23 +54,26 @@ h1 {
 }
 
 .text {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	color: #FFFFFF;
 	margin: 0;
 	margin-bottom: 1rem;
 }
 
 .author {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 	color: #7ADFBB;
 }
 
 button {
-	padding: 1rem 3rem;
+	display: inline-block;
+	padding: 0.7rem 2rem;
 	margin-top: 1rem;
 	font-family: PT Sans;
 	font-weight: bolder;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
 	color: #A6ECE0;
 	border: none;
 	background-color: #4C8577;
@@ -85,6 +88,18 @@ button:hover {
 
 button:focus {
 	outline: none;
+}
+
+.quote a {
+	display: inline-block;
+	line-height: 0.8rem;
+	margin: 0;
+	padding: 0.7rem;
+	margin-top: 1rem;
+}
+
+.quote a img {
+	height: 0.8rem;
 }
 
 footer {
